@@ -42,7 +42,7 @@
     <parent>
         <groupId>com.github.paashzj</groupId>
         <artifactId>java-dependency</artifactId>
-        <version>c677c735cefe7a1d70da42a0470883429faa6338</version>
+        <version>3.1.24</version>
     </parent>
 
     <groupId>com.github.shoothzj</groupId>
