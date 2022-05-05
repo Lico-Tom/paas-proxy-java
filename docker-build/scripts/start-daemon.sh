@@ -47,9 +47,9 @@ if [ -n "${APOLLO_JAR_VERSION}" ] && [ -n "${MAVEN_ADDRESS}" ]; then
   rm -rf /opt/sh/lib/apollo*
 
   # download specify version jar of apollo
-  wget -P /opt/sh/lib "${MAVEN_ADDRESS}"/com/ctrip/framework/apollo/apollo-client-"${APOLLO_JAR_VERSION}"/apollo-client-"${APOLLO_JAR_VERSION}".jar
-  wget -P /opt/sh/lib "${MAVEN_ADDRESS}"/com/ctrip/framework/apollo/apollo-core-"${APOLLO_JAR_VERSION}"/apollo-core-"${APOLLO_JAR_VERSION}".jar
-  wget -P /opt/sh/lib "${MAVEN_ADDRESS}"/com/ctrip/framework/apollo/apollo-openapi-"${APOLLO_JAR_VERSION}"/apollo-openapi-"${APOLLO_JAR_VERSION}".jar
+  wget -P /opt/sh/lib "${MAVEN_ADDRESS}"/com/ctrip/framework/apollo/apollo-client/"${APOLLO_JAR_VERSION}"/apollo-client-"${APOLLO_JAR_VERSION}".jar
+  wget -P /opt/sh/lib "${MAVEN_ADDRESS}"/com/ctrip/framework/apollo/apollo-core/"${APOLLO_JAR_VERSION}"/apollo-core-"${APOLLO_JAR_VERSION}".jar
+  wget -P /opt/sh/lib "${MAVEN_ADDRESS}"/com/ctrip/framework/apollo/apollo-openapi/"${APOLLO_JAR_VERSION}"/apollo-openapi-"${APOLLO_JAR_VERSION}".jar
 fi
 
 # memory option
